@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Outer shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,8 L104,28 L104,62 Q104,90 60,112 Q16,90 16,62 L16,28 Z" />
+    <!-- Inner shield fill -->
+    <path
+        android:fillColor="#1A3A5C"
+        android:pathData="M60,16 L96,32 L96,62 Q96,86 60,104 Q24,86 24,62 L24,32 Z" />
+    <!-- Star / emblem placeholder -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M60,36 L64,50 L78,50 L67,59 L71,73 L60,64 L49,73 L53,59 L42,50 L56,50 Z" />
+</vector>
